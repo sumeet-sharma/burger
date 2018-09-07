@@ -1,5 +1,5 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ('Bacon Double Cheese Burger', 0);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Hamburger', 0);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Veggie Burger', 0);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Bacon and Cheddar Angus Burger', 0);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Mushroom Burger', 0);
+INSERT INTO burgers_db.burgers(burger_name) 
+VALUES ("Cheeseburger"), ("Pizza Burger"), ("Steakburger");
+-- remember that true shows up as 1 and false shows up as 0 in the table.
+
+SELECT * FROM burgers;
