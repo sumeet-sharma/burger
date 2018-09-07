@@ -4,6 +4,7 @@
   "description": "An app that allows users to input a burger, watch their burger list grow, and devour each burger from the list.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
